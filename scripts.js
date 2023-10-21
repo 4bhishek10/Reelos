@@ -6,7 +6,7 @@ let videoPaths = [
     // "/home/abhishek/Downloads/Andrew Tate _ Official Trailer Movie (2023).mp4",
     // Add more video paths here
 ];
-numberOfIterations = 12;
+numberOfIterations = 67;
 for (let i = 1; i <= numberOfIterations; i++) {
     videoPaths.push(`instagram/insta${i}.mp4`);
 }
