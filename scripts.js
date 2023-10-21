@@ -1,10 +1,17 @@
 // Replace these URLs with the paths to your videos
-const videoPaths = [
-    "instagram/insta2.mp4",
-    "instagram/insta1.mp4",
+
+let videoPaths = [
+    // "instagram/insta2.mp4",
+    // "instagram/insta1.mp4",
     // "/home/abhishek/Downloads/Andrew Tate _ Official Trailer Movie (2023).mp4",
     // Add more video paths here
 ];
+numberOfIterations = 12;
+for (let i = 1; i <= numberOfIterations; i++) {
+    videoPaths.push(`instagram/insta${i}.mp4`);
+}
+
+console.log(videoPaths);
 
 let currentVideoIndex = 0;
 let playingVideo = null;
