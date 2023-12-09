@@ -1,4 +1,5 @@
 // Replace these URLs with the paths to your videos
+let folderPath = "";
 
 let videoPaths = [
     // "instagram/insta2.mp4",
@@ -6,9 +7,10 @@ let videoPaths = [
     // "/home/abhishek/Downloads/Andrew Tate _ Official Trailer Movie (2023).mp4",
     // Add more video paths here
 ];
+folderPath = $("#page_id").html();
 numberOfIterations = 67;
 for (let i = 1; i <= numberOfIterations; i++) {
-    videoPaths.push(`instagram/insta${i}.mp4`);
+    videoPaths.push(`${folderPath}/insta${i}.mp4`);
 }
 
 console.log(videoPaths);

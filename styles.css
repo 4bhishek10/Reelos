@@ -51,3 +51,6 @@ footer {
     width: 40%;
     height: 70px;
 }
+#page_id{
+    display: none;
+}
